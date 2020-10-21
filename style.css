@@ -1,14 +1,19 @@
 
  header {
    height: 250px;
+   text-align: left;
+   justify-content: space-between;
+   word-spacing: 15px;
  }
-#left-header {
-  text-align: left;;
-}
 
-#right-header {
-  text-align: right;
-}
+ nav {
+   display: inline-flex;
+   width: 17%;
+   right: 0%;
+  justify-content: space-around;
+  position: absolute;
+
+ }
 main {
   height: 400px;
   text-align: center;
@@ -21,7 +26,14 @@ main {
 }
 
 #box {
-  size: 50px;
+position: absolute;
+top: 355px;
+left: 575px;
+}
+
+#box input {
+height: 30px;
+width: 50px;
 }
 
 footer {
@@ -32,4 +44,19 @@ footer {
 a {
   text-decoration: none;
   color: #444
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }
