@@ -1,0 +1,35 @@
+
+ header {
+   height: 250px;
+ }
+#left-header {
+  text-align: left;;
+}
+
+#right-header {
+  text-align: right;
+}
+main {
+  height: 400px;
+  text-align: center;
+}
+#logo {
+  padding-top: 50%;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 100%;
+}
+
+#box {
+  size: 50px;
+}
+
+footer {
+  height: 100px;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #444
+}

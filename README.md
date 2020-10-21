@@ -1,3 +1,3 @@
 # google-homepage
 
-this is for the odin project. that is it :)))
+this is the GOOGLE - HOMEPAGE PROJECT for the odin project :)))
